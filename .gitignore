@@ -1,0 +1,40 @@
+# ── 시크릿 (절대 커밋 금지) ──
+.crema_credentials.json
+.crema_token.json
+dx_cookies.txt
+
+# ── 고객 PII / 리뷰 데이터 ──
+crema_out/
+crema_dumps/
+*_reviews.txt
+*_reviews.json
+ai_summary*.json
+ai_summary*.txt
+_resp.json
+
+# ── 사내 자산 / 대용량 산출물 ──
+*.xlsx
+*.png
+*.webp
+레퍼런스/
+*_styleguide.txt
+
+# ── 스크랩된 프론트 번들 / 디버그 잔재 ──
+_app_bundle.js
+product_detail_bundle.js
+crema_widget.js
+crema_init.js
+crema_pc.js
+build_manifest.js
+chunks/
+_apiclient_ctx.txt
+dxrs75063_page.html
+
+# ── 에이전트 메모리 ──
+memory/
+
+# ── OS / IDE / Python ──
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
